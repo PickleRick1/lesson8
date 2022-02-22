@@ -1,0 +1,227 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Taviraj&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.wrapper {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	min-height: 100%;
+	overflow: hidden;
+}
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+.header {
+	margin: 0 0 20px;
+}
+.text-hint {
+	text-align: center;
+	font-size: 46px;
+	margin: 0 0 5px;
+	line-height: 123%;
+}
+.wall {
+	text-align: center;
+}
+.wall img {
+	position: relative;
+}
+.wall:hover::after {
+	content: "";
+	background: url("../img/titan2.png") no-repeat;
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	left: 534px;
+	top: 265px;
+	display: block;
+}
+.wall:hover::before {
+	content: "О нет, на нас напали титаны!! ";
+	color: red;
+	font-size: 36px;
+	line-height: 123%;
+}
+.titan-text {
+	line-height: 175%;
+	margin: 0 0 20px;
+}
+.titan-text *:not(:last-child) {
+	margin: 0 0 12px;
+}
+.titan-text p::first-letter {
+	color: #f75e05;
+}
+.titan-img:hover {
+	visibility: hidden;
+}
+.titan-img:hover::after {
+	content: "Черт,он сбежал! Дааа,тут еще работать и работать....";
+	display: block;
+	visibility: visible;
+	font-size: 20px;
+	margin: 0 0 12px;
+	color: red;
+}
+.titan2-text {
+	margin: 0 0 15px;
+	line-height: 162%;
+}
+.titan2-text p {
+	margin: 0 0 12px;
+}
+.titan2-text p:last-child {
+	margin: 0;
+}
+.button-kill {
+	color: rgb(255, 166, 0);
+}
+#titan2-img:not(:target) {
+	display: none;
+}
+#titan2-img:target::after {
+	content: "Ля ты мощный, какого словил";
+	display: block;
+	margin: 0 0 12px;
+	color: red;
+	line-height: 145%;
+}
+.titan-kill img {
+	width: 400px;
+}
+.method {
+	line-height: 154%;
+}
+.method-text {
+	margin: 0 0 12px;
+}
+.method-recomend {
+	margin: 0 0 20px;
+}
+.method-list {
+	padding: 0 0 0 32px;
+	line-height: 170%;
+	margin: 0 0 20px;
+}
+.method-list li {
+	padding: 5px;
+}
+.method-list li:not(:last-child) {
+	margin: 0 0 15px 0;
+}
+.method-list li::before {
+	content: "";
+	background: url("../img/imgonline-com-ua-Resize-zedPwCApMlgo.png") no-repeat;
+	display: inline-block;
+	min-height: 16px;
+	width: 16px;
+	margin: 0 14px -2px -32px;
+}
+.method-list li:first-child:hover::after {
+	content: "Пф,конечно нет, наивные";
+	display: block;
+	color: red;
+}
+.method-list li:last-child::first-line {
+	color: #ff3f3a;
+}
+.list-item:nth-child(odd) {
+	background-color: #d1d2ee91;
+}
+.list-item:nth-child(even) {
+	background-color: #98b6af;
+}
+.titan3 {
+	line-height: 154%;
+}
+.titan3-text {
+	margin: 0 0 12px;
+}
+.button-escape {
+	color: green;
+}
+.button-escape:visited {
+	color: red;
+}
+/*======================Макет===========================*/
+.maket {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+}
+.maket-container {
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+.container-createx {
+	max-width: 390px;
+	margin-left: auto;
+}
+.header-createx {
+	font-weight: 900;
+	color: #1e212c;
+}
+.label {
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0 0 8px;
+}
+.head-createx {
+	font-size: 46px;
+	line-height: 130%;
+	margin: 0 0 40px;
+}
+.list-createx li {
+	line-height: 160%;
+	padding: 0 0 0 32px;
+}
+.list-createx li:not(:last-child) {
+	margin: 0 0 12px 0;
+}
+
+.list-createx li::before {
+	content: "";
+	background: url("../img/check.svg") no-repeat;
+	min-height: 16px;
+	display: inline-block;
+	width: 16px;
+	margin: 0 14px -2px -32px;
+}
+.list-createx {
+	margin: 0 0 48px;
+}
+.button-createx {
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	padding: 0px 32px;
+	line-height: 314%;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 900;
+	min-height: 44px;
+	display: inline-block;
+	margin: 0 0 20px;
+	border: 1px solid #f75e05;
+}
+.button-createx:hover {
+	color: #f75e05;
+	background: #ffffff;
+}
+.matoa-maket {
+	font-family: "Taviraj", serif;
+	font-size: 36px;
+	line-height: 111%;
+	letter-spacing: 0.02px;
+	color: #333333;
+}
+.matoa-maket::after {
+	content: "";
+	height: 1px;
+	display: block;
+	width: 17%;
+	margin: 8px 0 0 0;
+	background-color: #333333;
+}
